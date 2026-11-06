@@ -1,8 +1,30 @@
 <h2>☕ Descripción general:</h2>
 <br>
-Durante este proyecto se hace uso de PySpark para analizar datos de ventas de una cadena de cafeterías a partir del dataset Coffee Shop Sales en Kaggle. El objetivo fue practicar el procesamiento de datos a escala y obtener métricas de negocio relacionadas con clientes, productos y ventas. 
+Durante este proyecto se hace uso de PySpark para analizar datos de ventas de una cadena de cafeterías a partir del dataset Coffee Shop Sales en Kaggle. El objetivo fue practicar el procesamiento de datos a escala y obtener métricas de negocio relacionadas con clientes, productos, ventas y ganancias. 
 <br><br>
-  Las interrogantes exploradas fueron: 
+<b>Tipos de café</b><br><br>
+ 🔸 Robusta
+<br>
+    • El más económico y abundante.<br>
+    • Tiene más cafeína.<br>
+    • Suele utilizarse en cafés instantáneos y mezclas.<br>
+<br>
+ 🔸 Arabica
+<br>
+    • Representa la mayor parte del café de especialidad.<br>
+    • Tiene sabores más complejos y menos amargos.
+<br><br>
+ 🔸 Liberica
+<br>
+    • Producción limitada.<br>
+    • Aroma y sabor muy particulares.<br><br>
+ 🔸 Excelsa
+<br>
+    • Actualmente se considera una variedad dentro de Liberica.<br>
+    • Es bastante rara en comparación con Arabica y Robusta.<br>
+    • Su escasez suele elevar el precio.
+<br><br>
+❓Las interrogantes exploradas fueron: 
 <br><br>
  • ¿Qué tipos de café y niveles de tostado son los más populares?<br>
  • ¿Cómo se distribuyen las ventas entre los distintos productos?<br>
@@ -47,10 +69,10 @@ https://www.kaggle.com/datasets/xavierberge/coffee-shop-sales-dataset?select=cus
 <h2>✨ Conclusiones: </h2>
 <br> 
     • Las ciudades con la mayor concentración de membresías son Washington, Nueva York y Saint Louis, en los Estados Unidos.<br><br>
-    • Las principales ventas son abarcadas por los tipos de café: Excelsa claro, Arábica medio, Libérica claro y Arábica claro.<br><br>
-    • La mayor parte de productos no generan las ventas suficientes a mayores unidades vendidas: Productos muy baratos respecto a otros.<br><br>
-    • Se deben ajustar precios de productos como Arábica oscura, Robusta clara y Robusta Oscura principalmente, para ser más competitivos.<br><br>
-    • Algunos productos no generan beneficios suficientes respecto a otros. <br>
+    • Las principales ventas son abarcadas por Excelsa claro, Arabica medio, Liberica claro y Arabica claro.<br><br>
+    • Las variantes <b>Excelsa</b> y <b>Liberica</b> generan la mayor parte de las ventas.<br><br>
+    • Entre los productos menos costosos están: café Arabica oscura, Robusta clara y Robusta Oscura.<br><br>
+    • Liberica genera la mayor rentabilidad relativa (margen de beneficio).
 
 
 
